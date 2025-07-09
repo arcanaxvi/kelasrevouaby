@@ -1,12 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aby Prastya Palgunadi</title>
+    <title>Test Revou Bootcamp</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <h2>Aby Prastya Palgunadi</h2>
+    <p class="text-3xl pb-4 text-blue-500 font-bold ml-6 mt-4 bg-red-200">Hello World!</p>
+    <hr/>
+    <p>Halo, nama saya <br> Aby</p>
+    <!-- ini komentar untuk baris ini ctrl+/ -->
+    <h1>Ini Heading 1</h1>
+    <h2>Ini Heading 2</h2>
+    <h3>Ini Heading 3</h3>
+    <h4>Ini Heading 4</h4>
+    <h5>Ini Heading 5</h5>
+    <h6>Ini Heading 6</h6>
+    <p>Text ini ada <b>boldnya</b> ini <i>italic nya</i> <sub>bawah</sub> <sup>atas</sup></p>
+    <p>bullet point</p>
+    <ul type="square">
+        <li>pisang <p>pisang adalah banana</p></li>
+        <li>apel</li>
+        <li>mangga</li>
+    </ul>
+    <p>ada angka</p>
+    <ol type="A">
+        <li>satu</li>
+        <li>dua</li>
+        <li>tiga</li>
+    </ol>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Company</th>
+                <th>contact</th>
+                <th>country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>alfred</td>
+                <td>abc@gmail.com</td>
+                <td>germany</td>
+            </tr>
+            <tr>
+                <td>budy</td>
+                <td>budi@gmail.com</td>
+                <td>indonesia</td>
+            </tr>
+        </tbody>
+    </table>
+    <img src="image/poto.jpg" alt="fotoku" height="300px">
+    <h1>Link</h1>
+    <a href="./second.html" target="_blank">Ini adalah link</a>
+    <a href="#lorem">golorem</a>
+    <h1>Form</h1>
+    <form>
+        <label>Nama</label><br>
+        <input placeholder="masukkan nama" type="text"><br>
+        <label >Umur</label><br>
+        <input placeholder="masukan umur" type="number" min="0" max="100"><br>
+        <label >Password</label><br>
+        <input type="password"><br>
+        <label >Jenis Kelamin</label>
+        <input type="radio" value="male" name="jenis-kelamin"> Laki-Laki
+        <input type="radio" value="female"name="jenis-kelamin"> Perempuan <br>
+        <label>komentar</label><br>
+        <textarea rows="5" cols="30" placeholder="tulis komentar"></textarea><br>
+        <input type="checkbox"> Saya Setuju dengan syarat dan ketentuan <br>
+        <input type="submit" value="Kirim">
+        <button type="submit">Send</button><br>
+        <label for="">makanan favorit</label>
+        <select name="" id="">
+            <option value="nasi-goreng">Nasi Goreng</option>
+            <option value="nasi-padang">Nasi Padang</option>
+            <option value="nasi-campur">Nasi Campur</option>
+        </select>
+    </form>
+    <p id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptatum quisquam dolores tempora perspiciatis minima. Necessitatibus nemo voluptatum ea suscipit laborum voluptate dolores, veritatis pariatur non harum officiis delectus distinctio!</p>
 </body>
 </html>
